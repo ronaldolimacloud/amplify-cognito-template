@@ -1,29 +1,21 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { Authenticator } from "@aws-amplify/ui-react-native";
+import { Amplify } from "aws-amplify";
+import { Stack } from "expo-router";
+import outputs from "../amplify_outputs.json";
 
-import { useColorScheme } from '@/hooks/useColorScheme';
+Amplify.configure(outputs);
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
-
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <Authenticator
+      formFields={{
+        signUp: {
+          given_name: { label: "First name", required: true, order: 2 },
+          family_name: { label: "Last name", required: true, order: 3 },
+        },
+      }}
+    >
+      <Stack />
+    </Authenticator>
   );
 }
