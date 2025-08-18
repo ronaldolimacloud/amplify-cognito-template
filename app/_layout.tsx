@@ -7,15 +7,10 @@ Amplify.configure(outputs);
 
 export default function RootLayout() {
   return (
-    <Authenticator
-      formFields={{
-        signUp: {
-          given_name: { label: "First name", required: true, order: 2 },
-          family_name: { label: "Last name", required: true, order: 3 },
-        },
-      }}
-    >
-      <Stack />
-    </Authenticator>
+    <Authenticator.Provider>
+      <Authenticator>
+        <Stack />
+      </Authenticator>
+    </Authenticator.Provider>
   );
 }
