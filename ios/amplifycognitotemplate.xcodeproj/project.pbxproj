@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		8FCAA4A9665FDB662B826F86 /* libPods-amplifycognitotemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CB9104ABECD6410A8C4974 /* libPods-amplifycognitotemplate.a */; };
+		58DFC99051C7D700C31AE047 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D0D0A01A4C5AF9619638C /* ExpoModulesProvider.swift */; };
+		97CE4EF976A5B126D238319B /* libPods-amplifycognitotemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D99364A71E5C8AE50347C26 /* libPods-amplifycognitotemplate.a */; };
+		ADE60FE90B1685084817B165 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D6F8F7C06B8376141FAA65E7 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		E2B157386B776EFFCFEB0558 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB21BBBBFF83D61E546847 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F20847E8D8C32FE0B0A65012 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FA4DFB1ABAA0A1672613314B /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		021C62381BDD7C848AACCCD9 /* Pods-amplifycognitotemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplifycognitotemplate.debug.xcconfig"; path = "Target Support Files/Pods-amplifycognitotemplate/Pods-amplifycognitotemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		10DE30490930B497EFC22C22 /* Pods-amplifycognitotemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplifycognitotemplate.release.xcconfig"; path = "Target Support Files/Pods-amplifycognitotemplate/Pods-amplifycognitotemplate.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* amplifycognitotemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amplifycognitotemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = amplifycognitotemplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = amplifycognitotemplate/Info.plist; sourceTree = "<group>"; };
-		27BB21BBBBFF83D61E546847 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-amplifycognitotemplate/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		6D99364A71E5C8AE50347C26 /* libPods-amplifycognitotemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amplifycognitotemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740D0D0A01A4C5AF9619638C /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-amplifycognitotemplate/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		95CFD6F7E7F636A8829FFEC9 /* Pods-amplifycognitotemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplifycognitotemplate.debug.xcconfig"; path = "Target Support Files/Pods-amplifycognitotemplate/Pods-amplifycognitotemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = amplifycognitotemplate/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D053EFE68A2EFDE17034C1F6 /* Pods-amplifycognitotemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amplifycognitotemplate.release.xcconfig"; path = "Target Support Files/Pods-amplifycognitotemplate/Pods-amplifycognitotemplate.release.xcconfig"; sourceTree = "<group>"; };
-		D6CB9104ABECD6410A8C4974 /* libPods-amplifycognitotemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-amplifycognitotemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F8F7C06B8376141FAA65E7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = amplifycognitotemplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = amplifycognitotemplate/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* amplifycognitotemplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "amplifycognitotemplate-Bridging-Header.h"; path = "amplifycognitotemplate/amplifycognitotemplate-Bridging-Header.h"; sourceTree = "<group>"; };
-		FA4DFB1ABAA0A1672613314B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = amplifycognitotemplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,23 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FCAA4A9665FDB662B826F86 /* libPods-amplifycognitotemplate.a in Frameworks */,
+				97CE4EF976A5B126D238319B /* libPods-amplifycognitotemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12FDCB877FC80BDC9C5B0096 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				021C62381BDD7C848AACCCD9 /* Pods-amplifycognitotemplate.debug.xcconfig */,
-				D053EFE68A2EFDE17034C1F6 /* Pods-amplifycognitotemplate.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* amplifycognitotemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				FA4DFB1ABAA0A1672613314B /* PrivacyInfo.xcprivacy */,
+				D6F8F7C06B8376141FAA65E7 /* PrivacyInfo.xcprivacy */,
 			);
 			name = amplifycognitotemplate;
 			sourceTree = "<group>";
@@ -72,15 +62,23 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D6CB9104ABECD6410A8C4974 /* libPods-amplifycognitotemplate.a */,
+				6D99364A71E5C8AE50347C26 /* libPods-amplifycognitotemplate.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		77BC1A17049C0D5205E12EED /* amplifycognitotemplate */ = {
+		57E0A4D69250F4EA9D27322C /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				27BB21BBBBFF83D61E546847 /* ExpoModulesProvider.swift */,
+				64847694D000DD92A0597CE5 /* amplifycognitotemplate */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		64847694D000DD92A0597CE5 /* amplifycognitotemplate */ = {
+			isa = PBXGroup;
+			children = (
+				740D0D0A01A4C5AF9619638C /* ExpoModulesProvider.swift */,
 			);
 			name = amplifycognitotemplate;
 			sourceTree = "<group>";
@@ -99,8 +97,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				12FDCB877FC80BDC9C5B0096 /* Pods */,
-				B7F9744005B73A4FA9513964 /* ExpoModulesProviders */,
+				C342F87C7C4D5D1CDA14FFB1 /* Pods */,
+				57E0A4D69250F4EA9D27322C /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,14 +113,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7F9744005B73A4FA9513964 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				77BC1A17049C0D5205E12EED /* amplifycognitotemplate */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +120,16 @@
 			);
 			name = Supporting;
 			path = amplifycognitotemplate/Supporting;
+			sourceTree = "<group>";
+		};
+		C342F87C7C4D5D1CDA14FFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95CFD6F7E7F636A8829FFEC9 /* Pods-amplifycognitotemplate.debug.xcconfig */,
+				10DE30490930B497EFC22C22 /* Pods-amplifycognitotemplate.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "amplifycognitotemplate" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				DBE29E649D93EAA938446DB5 /* [Expo] Configure project */,
+				A6C2E21095B431405AADD8A5 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				FC471C5AE1498CEA516A41DC /* [CP] Embed Pods Frameworks */,
+				F94DA53B33D4559CCE4A5FA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				F20847E8D8C32FE0B0A65012 /* PrivacyInfo.xcprivacy in Resources */,
+				ADE60FE90B1685084817B165 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amplifycognitotemplate/Pods-amplifycognitotemplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DBE29E649D93EAA938446DB5 /* [Expo] Configure project */ = {
+		A6C2E21095B431405AADD8A5 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -301,7 +301,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-amplifycognitotemplate/expo-configure-project.sh\"\n";
 		};
-		FC471C5AE1498CEA516A41DC /* [CP] Embed Pods Frameworks */ = {
+		F94DA53B33D4559CCE4A5FA7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				E2B157386B776EFFCFEB0558 /* ExpoModulesProvider.swift in Sources */,
+				58DFC99051C7D700C31AE047 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 021C62381BDD7C848AACCCD9 /* Pods-amplifycognitotemplate.debug.xcconfig */;
+			baseConfigurationReference = 95CFD6F7E7F636A8829FFEC9 /* Pods-amplifycognitotemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -372,7 +372,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D053EFE68A2EFDE17034C1F6 /* Pods-amplifycognitotemplate.release.xcconfig */;
+			baseConfigurationReference = 10DE30490930B497EFC22C22 /* Pods-amplifycognitotemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

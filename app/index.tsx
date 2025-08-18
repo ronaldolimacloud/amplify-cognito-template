@@ -1,6 +1,7 @@
+import { useAuthenticator } from "@aws-amplify/ui-react-native";
 import { fetchUserAttributes } from "aws-amplify/auth";
 import { useEffect, useState } from "react";
-import { ActivityIndicator, Text, View } from "react-native";
+import { ActivityIndicator, Button, Text, View } from "react-native";
 
 type UserProfile = {
   email?: string;
@@ -11,6 +12,7 @@ type UserProfile = {
 export default function Index() {
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState<UserProfile>({});
+  const { signOut } = useAuthenticator();
 
   useEffect(() => {
     let isMounted = true;
@@ -38,6 +40,9 @@ export default function Index() {
         padding: 24,
       }}
     >
+      <View style={{ position: "absolute", top: 24, right: 24 }}>
+        <Button title="Sign Out" onPress={signOut} />
+      </View>
       {loading ? (
         <ActivityIndicator />
       ) : (

@@ -31,6 +31,12 @@
           <string>com.ronaldograxa.amplifycognitotemplate</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>exp+amplify-cognito-template</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>

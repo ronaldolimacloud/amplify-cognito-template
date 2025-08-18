@@ -25,6 +25,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="amplifycognitotemplate"/>
+        <data android:scheme="exp+amplify-cognito-template"/>
       </intent-filter>
     </activity>
   </application>
