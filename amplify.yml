@@ -17,5 +17,21 @@ backend:
     paths:
       - .npm/**/*
       - node_modules/**/*
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "No web build; Expo/EAS handles mobile."
+    build:
+      commands:
+        - echo "Skipping frontend build."
+  artifacts:
+    baseDirectory: .
+    files:
+      - README.md
+  cache:
+    paths:
+      - .npm/**/*
+      - node_modules/**/*
 
 
