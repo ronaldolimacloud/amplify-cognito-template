@@ -8,9 +8,10 @@ export const auth = defineAuth({
       google: {
         clientId: secret('GOOGLE_CLIENT_ID'),
         clientSecret: secret('GOOGLE_CLIENT_SECRET')
-    
-
-
+      },
+    },
+    callbackUrls: ["amplifycognitotemplate://callback/"],
+    logoutUrls: ["amplifycognitotemplate://signout/"],
   },
   userAttributes: {
     email: { required: true },
