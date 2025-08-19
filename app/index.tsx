@@ -1,7 +1,9 @@
 import { useAuthenticator } from "@aws-amplify/ui-react-native";
 import { fetchUserAttributes } from "aws-amplify/auth";
+import { Link } from "expo-router";
 import { useEffect, useState } from "react";
-import { ActivityIndicator, Button, Text, View } from "react-native";
+import { ActivityIndicator, Pressable, Text, View } from "react-native";
+import Gradient from "../components/gradient";
 
 type UserProfile = {
   email?: string;
@@ -32,6 +34,7 @@ export default function Index() {
   }, []);
 
   return (
+    <Gradient>
     <View
       style={{
         flex: 1,
@@ -41,19 +44,28 @@ export default function Index() {
       }}
     >
       <View style={{ position: "absolute", top: 24, right: 24 }}>
-        <Button title="Sign Out" onPress={signOut} />
+        <Pressable
+          onPress={signOut}
+          accessibilityRole="button"
+          style={{ paddingVertical: 8, paddingHorizontal: 12 }}
+        >
+          <Text style={{ fontFamily: "Inter_600SemiBold", color: "#FFFFFF" }}>Sign Out</Text>
+        </Pressable>
       </View>
       {loading ? (
         <ActivityIndicator />
       ) : (
         <>
           <Text style={{ fontSize: 18, marginBottom: 12 }}>Welcome 👋</Text>
+          
           <Text style={{ marginBottom: 4 }}>
             {profile.given_name || ""} {profile.family_name || ""}
           </Text>
-          <Text style={{ color: "#666" }}>{profile.email || ""}</Text>
+          <Text style={{ color: "#FFFFFF" }}>{profile.email || ""}</Text>
+          <Link href="/gradient-page" style={{ fontSize: 18, marginBottom: 12, color: '#FFFFFF' }}>Gradient Screen</Link>
         </>
       )}
     </View>
+    </Gradient>
   );
 }
